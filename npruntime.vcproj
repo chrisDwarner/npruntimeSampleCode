@@ -87,6 +87,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy $(TargetPath) $(SolutionDir)installers\chrome\npruntime"
 			/>
 		</Configuration>
 		<Configuration
