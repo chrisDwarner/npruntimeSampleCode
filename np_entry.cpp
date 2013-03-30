@@ -40,10 +40,10 @@
 // Main plugin entry point implementation
 //
 #include "npapi.h"
-#include "npupp.h"
+#include "npfunctions.h"
 
 #ifndef HIBYTE
-#define HIBYTE(x) ((((uint32)(x)) & 0xff00) >> 8)
+#define HIBYTE(x) ((((uint32_t)(x)) & 0xff00) >> 8)
 #endif
 
 NPNetscapeFuncs NPNFuncs;
@@ -81,7 +81,7 @@ NPError OSCALL NP_GetEntryPoints(NPPluginFuncs* pFuncs)
 
 char *NPP_GetMIMEDescription();
 
-char *
+const char *
 NP_GetMIMEDescription()
 {
   return NPP_GetMIMEDescription();

@@ -1,4 +1,4 @@
-LIBRARY   NPRT
+LIBRARY   NPRUNTIME
 
 EXPORTS
 	NP_GetEntryPoints   @1
