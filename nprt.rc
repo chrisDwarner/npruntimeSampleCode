@@ -28,8 +28,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -49,7 +49,7 @@ BEGIN
             VALUE "FileDescription", "npruntime sample.\0"
             VALUE "FileExtents", "rts\0"
             VALUE "FileOpenName", "npruntime\0"
-            VALUE "FileVersion", "1, 0, 0, 3\0"
+            VALUE "FileVersion", "1, 0, 0, 4\0"
             VALUE "InternalName", "npruntime\0"
             VALUE "LegalCopyright", "Copyright © 1999\0"
             VALUE "LegalTrademarks", "\0"
@@ -57,7 +57,7 @@ BEGIN
             VALUE "OriginalFilename", "npruntime.dll\0"
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "npruntime scriptable example plugin\0"
-            VALUE "ProductVersion", "1, 0, 0, 3\0"
+            VALUE "ProductVersion", "1, 0, 0, 4\0"
             VALUE "SpecialBuild", "\0"
         END
     END
